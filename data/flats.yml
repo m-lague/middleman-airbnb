@@ -1,0 +1,21 @@
+- city: Berlin
+  image_city: "https://www.consoglobe.com/wp-content/uploads/2013/04/berlin-teiegarden.jpg"
+  address: "Rudi-Dutschke-Straße 26, 10969 Berlin"
+  owner: Mathieu
+  description: "Super appart centre ville"
+  category: popular
+  avatar: "mathieu.jpeg"
+- city: Paris
+  image_city: "http://therabbithaus.com/wp-content/uploads/2015/07/La-Seine-in-Paris.jpg"
+  address: "16, villa Gaudelet 75011 Paris"
+  owner: Steph
+  description: "loft vue sur seine"
+  category: popular
+  avatar: "steph.jpeg"
+- city: Madrid
+  image_city: "http://www.eraa.org/sites/default/files/images/event/full/madrid_1.jpg"
+  address: "16, villa Gaudelet Madrid"
+  owner: Steph
+  description: "appart quartier de l'arene"
+  category: popular
+  avatar: "steph.jpeg"

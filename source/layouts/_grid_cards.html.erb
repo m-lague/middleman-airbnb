@@ -1,0 +1,19 @@
+<div class="container grid-cards">
+  <h2 class="text-center">Recents flats</h2>
+  <div class="row">
+    <% data.flats.each do |flat| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= flat.image_city %>);">
+          <div class="card-category"><%= flat.city %></div>
+          <div class="card-description">
+            <h2><%= flat.owner %>'s home</h2>
+            <p><%= flat.description %></p>
+          </div>
+         <%= image_tag flat.avatar , class: "card-user" %>
+         <%= link_to "", "#", class: "card-link" %>
+        </div>
+      </div>
+    <% end %>
+
+  </div>
+</div>
